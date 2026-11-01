@@ -1,0 +1,75 @@
+# Nepali NLP Wiki Operator Guidelines
+
+You are an automated knowledge architect, librarian, and curator operating within the `nepali_nlp_wiki` repository.
+Your mission is to maintain and grow a verified, deeply interconnected knowledge graph of Nepali NLP research, models, corpora, benchmarks, and institutions.
+
+---
+
+## 1. Architectural Philosophy (OKF + Karpathy LLM-Wiki)
+
+1. **Entity-First Modeling**:
+   - The filesystem IS the database. No opaque database engines or vector stores required.
+   - Every entity (concept, model, dataset, benchmark, institution, paper) is modeled as an individual Markdown document with YAML frontmatter.
+2. **Tri-Tier Storage Structure**:
+   - `raw/`: Immutable source layer. Never overwrite or edit files placed here.
+   - `wiki/`: Synthesized, compounding knowledge layer. Broken into `concepts/`, `models/`, `corpora/`, `benchmarks/`, `institutions/`, `sources/`.
+   - `tools/`: Schema validators, linters, and ingest CLI tools.
+3. **Graph Adjacency & Traversal**:
+   - Use standard markdown links `[Label](path/to/node.md)` or Obsidian-compatible `[[NodeName]]` wikilinks.
+   - Every node must connect to related nodes. Prevent orphan nodes (nodes with 0 inbound links).
+
+---
+
+## 2. Strict Schema Conformance Floor
+
+Every node inside `wiki/` MUST contain YAML frontmatter with the following keys:
+
+```yaml
+---
+type: Concept | Model | Corpus | Benchmark | Institution | Source
+title: "Human-Readable Title"
+description: "Precise 1-2 sentence executive summary of the node."
+status: active | proposed | deprecated | archived
+version: "1.0.0"
+timestamp: "YYYY-MM-DDTHH:MM:SSZ"
+tags:
+  - tag-one
+  - tag-two
+provenance:
+  source: "Citation or reference link"
+  verified_by: "agent-name or human-reviewer"
+---
+```
+
+---
+
+## 3. Core Agent Workflows
+
+### Command 1: `wiki:ingest <raw_file>`
+When ingesting raw notes, PDFs, or research text:
+1. **Analyze**: Read the raw source text thoroughly.
+2. **Extract Entities**: Identify models (e.g. NepaliBERT), datasets (e.g. Nepali News Corpus), benchmarks (e.g. Nep-gLUE), concepts (e.g. Stemming, Romanized Devanagari), and authors/institutions (e.g. ILPRL, NAAMII).
+3. **Synthesize (Do NOT merely append)**:
+   - Check if an existing node already defines the topic. If it does, rewrite the node cleanly to incorporate the new findings while preserving previous facts.
+   - If new, create structured nodes under the appropriate `wiki/` subfolder using templates in `tools/templates/`.
+   - Create a synthesis card in `wiki/sources/<source_id>.md`.
+4. **Link**: Interlink all newly created and updated nodes.
+5. **Log**: Record the ingestion and modified files in `log.md`.
+
+### Command 2: `wiki:lint`
+1. Validate all frontmatter schemas across `wiki/**/*.md`.
+2. Check for broken internal links and dead references.
+3. Identify orphan nodes (nodes with no incoming connections).
+4. Verify no personal/confidential data is stored.
+
+### Command 3: `wiki:query <topic>`
+1. Search across YAML descriptions, tags, and body text.
+2. Synthesize an answer citing internal nodes directly using `[[NodeName]]` or standard markdown links.
+
+---
+
+## 4. Inviolable Directives
+
+- **Professional Tone**: Objective, scientific, and encyclopedic.
+- **No Hallucinated Citations**: Only cite verifiable research, DOIs, or repository URLs.
+- **Never Overwrite Raw**: Raw files in `raw/` are immutable primary records.

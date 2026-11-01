@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "2ce6d8df0dab07f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0be0fc2d43f1d91",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d44b51487da0614b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/templates/paper.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "paper"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fcac144ad95023ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "330db4567f5f7393",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fbfad2348b3581d9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "1e94f9873b22b3f7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d31f0ab7dddd9b2a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bd8b32ceb68475bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "c6678edcecf9e120",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2bd542708ef3875",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "tools/templates/paper.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "ff94b3a61ee1e179",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "tools/templates/paper.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "c71664541ecd4a3e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a4e73c5e539eac7d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "fc3c1ff3a4227fed",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "tools/templates/paper.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "d44b51487da0614b",
+  "lastOpenFiles": [
+    "wiki/papers",
+    "wiki/datasets",
+    "wiki/papers/understanding_consumer_choices_for_innovative_elec.md",
+    "wiki/papers/remittance_its_impact_and_utilization_trend_a_case.md",
+    "wiki/papers/finite_element_modeling_and_parametric_analysis_of.md",
+    "wiki/papers/inclusive_efl_instruction_in_rural_nepal_using_ict.md",
+    "wiki/papers/modeling_of_water_pollutant_concentration_using_la.md",
+    "wiki/papers/use_of_bidirectional_encoder_representations_from_.md",
+    "wiki/papers/economics_of_nepalese_telecom_industry.md",
+    "wiki/papers/nepali_text_document_classification_using_deep_neu.md",
+    "wiki/papers/some_discrete_optimization_problems_with_hamming_a.md",
+    "wiki/papers/problems_of_educational_wastage_in_primary_level_e.md",
+    "wiki/papers/theoretical_description_of_a_reparamatrization_of_.md",
+    "wiki/papers/study_on_distribution_of_rhododendron_arboreum_sm_.md",
+    "wiki/papers/customer_response_towards_smart_phones_purchase_ve.md",
+    "wiki/papers/structural_equation_modeling_of_latent_variables_a.md",
+    "wiki/papers/foreign_exchange_reserves_and_import_cover_modelin.md",
+    "wiki/papers/first-principles_investigation_of_optical_properti.md",
+    "wiki/papers/cybersecurity_awareness_amongst_university_student.md",
+    "wiki/papers/artificial_intelligence_in_armed_conflict_perspect.md",
+    "wiki/papers/impact_of_artificial_intelligence_on_new_global_or.md",
+    "wiki/papers/necessity_of_big_data_security_and_its_relation_to.md",
+    "wiki/papers/application_of_artificial_intelligence_in_the_mili.md",
+    "wiki/papers/artificial_intelligence_in_sport_an_ethical_issue.md",
+    "wiki/papers/hydrological_and_two-dimensional_hydraulic_modelli.md",
+    "wiki/papers/holistic_landslide_risk_assessment_using_gis-based.md",
+    "wiki/papers/the_efficacy_of_ai_using_white_box_approach_in_aud.md"
+  ]
+}
