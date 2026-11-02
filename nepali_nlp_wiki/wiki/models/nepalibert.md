@@ -31,7 +31,8 @@ license: "MIT"
 - **Tokenizer**: Custom WordPiece / Byte-Pair Encoding trained on tokenized Nepali Devanagari text.
 
 ## Related Entities
-- **Institutions**: [NAAMII](wiki/institutions/naamii.md), [Kathmandu University](wiki/institutions/ku.md)
-- **Concepts**: [Pre-training](wiki/concepts/pretraining.md), [Masked Language Modeling](wiki/concepts/mlm.md)
-- **Corpora**: [Nepali News Corpus](wiki/corpora/nepali_news.md)
+- **Institutions**: [NAAMII](wiki/institutions/naamii.md)
+- **Concepts**: [Devanagari NLP](wiki/concepts/devanagari_nlp.md)
+- **Datasets**: [Monolingual Text Datasets](wiki/datasets/monolingual_text_datasets.md)
+- **Papers**: [Language Modeling Papers](wiki/papers/language_modeling_papers.md)
 

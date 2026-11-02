@@ -1,0 +1,23 @@
+id: pretrain_corpus_hf
+name: "Nepali Large Language Model Pretraining Corpus"
+platform: huggingface
+task_type: pretrain
+task: causal_language_modeling
+source_url: "https://huggingface.co/datasets/Sakonii/nepalitext-language-model-dataset"
+license: cc-by-sa-4.0
+language: ne
+script: Devanagari
+
+workflow:
+  repo_id: "Sakonii/nepalitext-language-model-dataset"
+  split: train
+  fetch_method: "hf_api_stream"
+  raw_fields:
+    text: "text"
+
+mapping:
+  text_field: "text"
+
+export_format: text_stream
+test_sample_limit: 5
+

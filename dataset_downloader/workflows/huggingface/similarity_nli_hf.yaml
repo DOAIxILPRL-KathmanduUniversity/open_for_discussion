@@ -1,0 +1,29 @@
+id: similarity_nli_hf
+name: "Nepali NLI & Semantic Similarity Dataset"
+platform: huggingface
+task_type: similarity
+task: dense_retrieval_rag
+source_url: "https://huggingface.co/datasets/jangedoo/nepali-nli-20k"
+license: cc-by-4.0
+language: ne
+script: Devanagari
+
+workflow:
+  repo_id: "jangedoo/nepali-nli-20k"
+  split: train
+  fetch_method: "hf_api_stream"
+  raw_fields:
+    premise: "premise"
+    hypothesis: "hypothesis"
+    label: "label"
+
+mapping:
+  query_field: "premise"
+  positive_field: "hypothesis"
+  score_field: "label"
+  query_prefix: "search_query: "
+  passage_prefix: "search_document: "
+
+export_format: embedding_pair
+test_sample_limit: 5
+

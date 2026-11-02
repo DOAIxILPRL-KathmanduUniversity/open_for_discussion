@@ -14,3 +14,7 @@ some random dataset for understanding NLP and finding suitable answer
 
 
 - asr_postcorrection is a inference from asr engine and shows why sometime only a domain specific asr shall work else would be hard problem to solve. This also asks what and how well postcorrection shall be done where sometimes a dialect that sounds a bit different shall be treated as noise when it is correct.
+
+
+
+- close_translatin is a opinionanted translation dataset. Domain adaptation is not just (government, medical, news and such ) rather a general term of style a area has. This dataset is meant to explore how you can adapt to certain style of translation. 

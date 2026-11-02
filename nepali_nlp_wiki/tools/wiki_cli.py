@@ -17,8 +17,8 @@ WIKI_ROOT = Path(__file__).resolve().parent.parent
 
 # Recognized OKF node types
 VALID_TYPES = {
-    "bundle", "concept", "model", "corpus", "dataset", "paper", "benchmark",
-    "institution", "source", "tool", "person", "pipeline"
+    "bundle", "concept", "model", "dataset", "paper",
+    "institution", "tool", "person", "pipeline"
 }
 
 REQUIRED_FRONTMATTER = ["type", "title", "description", "status", "version", "timestamp"]

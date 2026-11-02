@@ -1,0 +1,48 @@
+[
+  {
+    "id": "sft_qa_hf",
+    "name": "Nepali SQuAD Reading Comprehension QA",
+    "platform": "huggingface",
+    "task_type": "sft",
+    "task": "reading_comprehension",
+    "source_url": "https://huggingface.co/datasets/Bibek1129/nepali_SQuAD_multiple_qsns",
+    "workflow_file": "workflows/huggingface/sft_qa_hf.yaml"
+  },
+  {
+    "id": "pretrain_corpus_hf",
+    "name": "Nepali Large Language Model Pretraining Corpus",
+    "platform": "huggingface",
+    "task_type": "pretrain",
+    "task": "causal_language_modeling",
+    "source_url": "https://huggingface.co/datasets/Sakonii/nepalitext-language-model-dataset",
+    "workflow_file": "workflows/huggingface/pretrain_corpus_hf.yaml"
+  },
+  {
+    "id": "similarity_nli_hf",
+    "name": "Nepali NLI & Semantic Similarity Dataset",
+    "platform": "huggingface",
+    "task_type": "similarity",
+    "task": "dense_retrieval_rag",
+    "source_url": "https://huggingface.co/datasets/jangedoo/nepali-nli-20k",
+    "workflow_file": "workflows/huggingface/similarity_nli_hf.yaml"
+  },
+  {
+    "id": "sft_pos_treebank_git",
+    "name": "Nepali Universal Dependencies Treebank (UD_Nepali-BK)",
+    "platform": "github",
+    "task_type": "sft",
+    "task": "pos_morphosyntax_tagging",
+    "source_url": "https://github.com/UniversalDependencies/UD_Nepali-BK",
+    "workflow_file": "workflows/github/sft_pos_treebank_git.yaml"
+  },
+  {
+    "id": "pretrain_wiki_kaggle",
+    "name": "Nepali Wikipedia Cleaned Articles Corpus",
+    "platform": "kaggle",
+    "task_type": "pretrain",
+    "task": "causal_language_modeling",
+    "source_url": "https://www.kaggle.com/datasets/disisbig/nepali-wikipedia-articles",
+    "workflow_file": "workflows/kaggle/pretrain_wiki_kaggle.yaml"
+  }
+]
+

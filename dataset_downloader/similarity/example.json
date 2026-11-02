@@ -1,0 +1,15 @@
+{
+  "task_type": "similarity",
+  "task": "dense_retrieval_rag",
+  "task_prefix": "search_query: ",
+  "source_dataset": "jangedoo/nepali-nli-20k",
+  "platform": "huggingface",
+  "format": "embedding_pair",
+  "sample": {
+    "query": "नेपालको संविधान २०७२ कहिले जारी भएको थियो?",
+    "positive": "नेपालको संविधान २०७२ साल असोज ३ गते संविधान सभाबाट पारित भई तत्कालीन राष्ट्रपति डा. रामवरण यादवद्वारा विधिवत् घोषणा गरिएको थियो।",
+    "negative": "नेपालको राष्ट्रिय जनगणना २०७८ अनुसार नेपालको जनसङ्ख्या २ करोड ९१ लाख ६४ हजार ५ सय ७८ पुगेको छ।",
+    "score": 1.0
+  }
+}
+

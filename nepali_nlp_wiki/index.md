@@ -25,14 +25,11 @@ Structured according to Google's **Open Knowledge Format (OKF v0.2)** and inspir
 
 | Section | Directory | Description |
 | :--- | :--- | :--- |
-| **Datasets** | [`wiki/datasets/`](wiki/datasets/) | Annotated datasets, instruction pairs, translation parallel texts, and speech corpora. |
-| **Research Papers** | [`wiki/papers/`](wiki/papers/) | Indexed academic papers (NepJOL, ACL, arXiv, KU repository) with citations and DOIs. |
-| **Concepts** | [`wiki/concepts/`](wiki/concepts/) | Core linguistic and computational NLP principles (e.g. Devanagari Tokenization, Romanized Nepali, Stemming). |
-| **Models** | [`wiki/models/`](wiki/models/) | Pretrained transformers, language models, ASR, TTS, and OCR architectures (e.g. NepaliBERT, NepBERTa). |
-| **Corpora** | [`wiki/corpora/`](wiki/corpora/) | Monolingual, parallel, speech, and OCR datasets for low-resource Nepali NLP. |
-| **Benchmarks** | [`wiki/benchmarks/`](wiki/benchmarks/) | Standardized evaluation suites, tasks, and leaderboards (e.g. Nep-gLUE, Nepali XNLI). |
-| **Institutions** | [`wiki/institutions/`](wiki/institutions/) | Labs, academic centers, and organizations driving Nepali NLP (e.g. ILPRL, NAAMII, Language Technology Kendra). |
-| **Sources** | [`wiki/sources/`](wiki/sources/) | Synthesis cards for referenced literature, journal articles, and conference proceedings. |
+| **Datasets** | [`wiki/datasets/`](wiki/datasets/) | Concept-wise curated datasets (e.g. `speech_datasets.md`, `translation_datasets.md`, `sentiment_datasets.md`). |
+| **Research Papers** | [`wiki/papers/`](wiki/papers/) | Concept-wise curated research literature & bibliography (e.g. `speech_papers.md`, `translation_papers.md`). |
+| **Models** | [`wiki/models/`](wiki/models/) | Significant pre-trained architectures, checkpoints, and embeddings (e.g. `nepalibert.md`, `nepberta.md`). |
+| **Concepts** | [`wiki/concepts/`](wiki/concepts/) | Core NLP concepts, linguistics, tokenization, morphology, and task definitions. |
+| **Institutions** | [`wiki/institutions/`](wiki/institutions/) | Labs, academic centers, and organizations driving Nepali NLP (e.g. ILPRL, NAAMII). |
 | **Raw Vault** | [`raw/`](raw/) | Immutable ingest directory for incoming source documents, PDFs, and notes. |
 
 ---

@@ -1,0 +1,24 @@
+id: sft_pos_treebank_git
+name: "Nepali Universal Dependencies Treebank (UD_Nepali-BK)"
+platform: github
+task_type: sft
+task: pos_morphosyntax_tagging
+source_url: "https://github.com/UniversalDependencies/UD_Nepali-BK"
+license: cc-by-sa-4.0
+language: ne
+script: Devanagari
+
+workflow:
+  repo_url: "https://github.com/UniversalDependencies/UD_Nepali-BK"
+  raw_file_url: "https://raw.githubusercontent.com/UniversalDependencies/UD_Nepali-BK/master/ne_bk-ud-test.conllu"
+  file_format: "conllu"
+  fetch_method: "raw_git_stream"
+
+mapping:
+  instruction: "दिएको नेपाली वाक्यका प्रत्येक शब्दको Universal POS ट्याग र रूपतात्विक विश्लेषण प्रस्तुत गर्नुहोस्।"
+  input_field: "text"
+  output_field: "tagged_tokens"
+  task_prefix: "दिएको वाक्यको रूपतात्विक विश्लेषण (POS Tagging) गर्नुहोस्:\n\n"
+
+export_format: gemma_instruction
+test_sample_limit: 5

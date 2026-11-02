@@ -1,0 +1,11 @@
+{
+  "task_type": "pretrain",
+  "task": "causal_language_modeling",
+  "source_dataset": "Sakonii/nepalitext-language-model-dataset",
+  "platform": "huggingface",
+  "format": "text_stream",
+  "sample": {
+    "text": "नेपाल एक बहुजातीय, बहुभाषिक, बहुधार्मिक र बहुसांस्कृतिक विशेषतायुक्त सार्वभौमसत्ता सम्पन्न राष्ट्र हो। नेपालको संविधान २०७२ ले मुलुकलाई संघीय लोकतान्त्रिक गणतन्त्रात्मक राज्यको रूपमा स्थापित गरेको छ।"
+  }
+}
+

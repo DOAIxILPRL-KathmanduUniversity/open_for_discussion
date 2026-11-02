@@ -1,0 +1,23 @@
+id: pretrain_wiki_kaggle
+name: "Nepali Wikipedia Cleaned Articles Corpus"
+platform: kaggle
+task_type: pretrain
+task: causal_language_modeling
+source_url: "https://www.kaggle.com/datasets/disisbig/nepali-wikipedia-articles"
+license: cc-by-sa-3.0
+language: ne
+script: Devanagari
+
+workflow:
+  dataset_slug: "disisbig/nepali-wikipedia-articles"
+  archive_file: "nepali_wikipedia.csv"
+  fetch_method: "kaggle_cli"
+  raw_fields:
+    text: "text"
+
+mapping:
+  text_field: "text"
+
+export_format: text_stream
+test_sample_limit: 5
+

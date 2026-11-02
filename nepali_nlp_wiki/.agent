@@ -12,7 +12,7 @@ Your mission is to maintain and grow a verified, deeply interconnected knowledge
    - Every entity (concept, model, dataset, benchmark, institution, paper) is modeled as an individual Markdown document with YAML frontmatter.
 2. **Tri-Tier Storage Structure**:
    - `raw/`: Immutable source layer. Never overwrite or edit files placed here.
-   - `wiki/`: Synthesized, compounding knowledge layer. Broken into `concepts/`, `models/`, `corpora/`, `benchmarks/`, `institutions/`, `sources/`.
+   - `wiki/`: Synthesized, compounding knowledge layer organized strictly into 5 concept-wise categories: `concepts/`, `datasets/`, `papers/`, `models/`, `institutions/`.
    - `tools/`: Schema validators, linters, and ingest CLI tools.
 3. **Graph Adjacency & Traversal**:
    - Use standard markdown links `[Label](path/to/node.md)` or Obsidian-compatible `[[NodeName]]` wikilinks.
@@ -26,7 +26,7 @@ Every node inside `wiki/` MUST contain YAML frontmatter with the following keys:
 
 ```yaml
 ---
-type: Concept | Model | Corpus | Benchmark | Institution | Source
+type: Concept | Model | Dataset | Paper | Institution
 title: "Human-Readable Title"
 description: "Precise 1-2 sentence executive summary of the node."
 status: active | proposed | deprecated | archived

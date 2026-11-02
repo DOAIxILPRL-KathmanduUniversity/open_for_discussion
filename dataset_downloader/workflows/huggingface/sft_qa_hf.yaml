@@ -1,0 +1,26 @@
+id: sft_qa_hf
+name: "Nepali SQuAD Reading Comprehension QA"
+platform: huggingface
+task_type: sft
+task: reading_comprehension
+source_url: "https://huggingface.co/datasets/Bibek1129/nepali_SQuAD_multiple_qsns"
+license: cc-by-4.0
+language: ne
+script: Devanagari
+
+workflow:
+  repo_id: "Bibek1129/nepali_SQuAD_multiple_qsns"
+  split: train
+  fetch_method: "hf_api_stream"
+  raw_fields:
+    context: "context"
+    question: "questions"
+
+mapping:
+  instruction: "दिएको सन्दर्भ पढेर सोधिएको प्रश्नको सही उत्तर दिनुहोस्।"
+  input_template: "सन्दर्भ: {context}\n\nप्रश्न: {questions}"
+  output_template: "प्रस्तुत सन्दर्भको आधारमा विश्लेषण गरिएको उत्तर।"
+  task_prefix: "दिएको सन्दर्भ पढेर सोधिएको प्रश्नको सही उत्तर दिनुहोस्:\n\n"
+
+export_format: gemma_instruction
+test_sample_limit: 5
