@@ -1,0 +1,7 @@
+# Preeti/Kantipur -> Unicode gold corpus.
+# Columns: preeti_input | expected_unicode | source | notes
+# Source: verified legacy-font pairs (Rajpatra / court documents / mined corpus).
+# Add new pairs here and re-verify before a release.
+gk]fn ;'Gb/ b]z xf].	नेपाल सुन्दर देश हो।	manual	seed pair
+s]kfnL	केपाली	manual	seed pair
+d'n's	मुलुक	manual	seed pair

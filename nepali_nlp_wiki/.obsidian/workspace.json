@@ -11,10 +11,14 @@
             "id": "d44b51487da0614b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "wiki/institutions/naamii.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "naamii"
             }
           }
         ]
@@ -184,8 +188,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "fbfad2348b3581d9",
+  "active": "d44b51487da0614b",
   "lastOpenFiles": [
+    "wiki/concepts/roboflow.md",
+    "wiki/concepts/roboflow_semantic_segmentation.md",
+    "wiki/concepts/roboflow_key_point.md",
+    "wiki/concepts/next_generation_linguist_workbench.md",
+    "wiki/concepts/huggingface_repos.md",
     "wiki/concepts/nepalitagsetpos.md",
     "raw/notes_dumps/literature_review.md",
     "raw/notes_dumps/dataset_index.md",
@@ -209,11 +218,6 @@
     "raw/scholar2025.md",
     "raw/scholar2026.md",
     "wiki/models/multilingual_foundation_models.md",
-    "wiki/concepts/code_switching_and_romanized_nepali.md",
-    "wiki/datasets/qa_and_instruction_datasets.md",
-    "wiki/datasets/multimodal_sign_and_vision_datasets.md",
-    "wiki/models/nepaligpt.md",
-    "wiki/concepts/nepali_morphosyntax_and_grammar.md",
     "raw/glossary/papers/nlp-ner/misc",
     "raw/glossary/papers/nepal-languages/newari",
     "raw/glossary/papers/nepal-languages/maithili",
