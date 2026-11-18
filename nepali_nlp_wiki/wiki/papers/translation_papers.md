@@ -39,7 +39,22 @@ Machine translation for Nepali has progressed from early rule-based interlinear 
 
 | Paper Title | Authors | Venue / Date | DOI / Link |
 | :--- | :--- | :--- | :--- |
+| **Training with Ciphers to Enhance In-Context Terminology Learning For Translation from Rare Languages** | Deevyanshu Malu, Deeptanshu Malu, Sunita Sarawagi | arXiv (2026) | [arXiv:2610.24593](https://arxiv.org/abs/2610.24593) |
+| **Get away with less: Need of source side data curation to build parallel corpus for low resource Machine Translation** | Saumitra Yadav, Manish Shrivastava | arXiv (2026) | [arXiv:2601.08629](https://arxiv.org/abs/2601.08629) |
+| **Machine Translation by Projecting Text into the Same Phonetic-Orthographic Space Using a Common Encoding** | Amit Kumar, Shantipriya Parida, Ajay Pratap, Anil Kumar Singh | arXiv (2023) | [arXiv:2305.12371](https://arxiv.org/abs/2305.12371) |
+| **Implications of Multi-Word Expressions on English to Bharti Braille Machine Translation** | Nisheeth Joshi, Pragya Katyayan | IEEE ISCON (2023) | [10.1109/ISCON57294.2023.10112137](https://doi.org/10.1109/ISCON57294.2023.10112137) |
+| **Investigating Lexical Sharing in Multilingual Machine Translation for Indian Languages** | Sonal Sannigrahi, Rachel Bawden | arXiv (2023) | [arXiv:2305.03207](https://arxiv.org/abs/2305.03207) |
+| **Exploiting Language Relatedness in Machine Translation Through Domain Adaptation Techniques** | Amit Kumar, Rupjyoti Baruah, Ajay Pratap, Mayank Swarnkar, Anil Kumar Singh | arXiv (2023) | [arXiv:2303.01793](https://arxiv.org/abs/2303.01793) |
+| **Learning to translate by learning to communicate** | Andrea Santilli, Antonino Parlavecchio, Iacopo Ghinassi, Emanuele Rodolà | arXiv (2022) | [arXiv:2207.07025](https://arxiv.org/abs/2207.07025) |
+| **Refining Low-Resource Unsupervised Translation by Language Disentanglement of Multilingual Model** | Zihan Park, Mincheol Park | arXiv (2022) | [arXiv:2205.15544](https://arxiv.org/abs/2205.15544) |
+| **Harnessing Cross-lingual Features to Improve Cognate Detection for Low-resource Languages** | Pranaydeep Singh, Els Lefever | arXiv (2021) | [arXiv:2112.08789](https://arxiv.org/abs/2112.08789) |
+| **Sampling-Based Approximations to Minimum Bayes Risk Decoding for Neural Machine Translation** | Mathias Müller, Rico Sennrich | arXiv (2021) | [arXiv:2108.04718](https://arxiv.org/abs/2108.04718) |
+| **Exploring Unsupervised Pretraining Objectives for Machine Translation** | Benjamin Saxe, et al. | arXiv (2021) | [arXiv:2106.05634](https://arxiv.org/abs/2106.05634) |
+| **Harnessing Multilinguality in Unsupervised Machine Translation for Rare Languages** | Xavier Liu, et al. | arXiv (2020) | [arXiv:2009.11201](https://arxiv.org/abs/2009.11201) |
+| **Data Diversification: A Simple Strategy For Neural Machine Translation** | Xuan-Phi Nguyen, Shafiq Joty, Kui Wu, Ai Ti Aw | NeurIPS / arXiv (2019) | [arXiv:1911.01986](https://arxiv.org/abs/1911.01986) |
+| **Low-Resource Corpus Filtering using Multilingual Sentence Embeddings** | Mikel Artetxe, Holger Schwenk | ACL / arXiv (2019) | [arXiv:1906.08885](https://arxiv.org/abs/1906.08885) |
 | **Handling short form words for machine translation** | Silwal, Roshan | Tribhuvan University Central Library eLibrary (2011-01-01) | [Link](https://hdl.handle.net/20.500.14540/20162) |
+| **Efforts in the Development of an Augmented English–Nepali Parallel Corpus** | Sharad Duwal, Bal Krishna Bal | UNESCO LT4All / ELRA (2019, pp. 375–378) | [ACL / ELRA Proceedings](https://aclanthology.org/) |
 | **Handling Unknown Words in English to Nepali Statistical Machine Translation Using  Analogical Learning Approach** | Ghimire, Pravakar | Tribhuvan University Central Library eLibrary (2011-01-01) | [Link](https://hdl.handle.net/20.500.14540/14958) |
 | **A chunk alignment model for statistical machine translation on english Nepali parallel corpus** | Joshi,Yoga Raj | Tribhuvan University Central Library eLibrary (2010-01-01) | [Link](https://hdl.handle.net/20.500.14540/22826) |
 | **The Effectiveness of Morphology-Aware Segmentation in Nepali Neural Machine Translation** | Atreya, P., et al. | arXiv (2021) | [arXiv:2103.11189](https://arxiv.org/abs/2103.11189) |

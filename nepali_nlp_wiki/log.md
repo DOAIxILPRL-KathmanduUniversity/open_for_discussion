@@ -382,12 +382,50 @@ All modifications, additions, and entity syntheses executed by agents or human c
   - Authored verified, fact-checked YAML workflows for Hugging Face (`Bibek1129/nepali_SQuAD_multiple_qsns`, `Sakonii/nepalitext-language-model-dataset`, `jangedoo/nepali-nli-20k`), GitHub (`UniversalDependencies/UD_Nepali-BK`), and Kaggle (`disisbig/nepali-wikipedia-articles`).
   - Created standalone CLI harness `downloader.py` featuring a zero-clutter `test` mode (downloads 5 samples to a temporary buffer, validates, prints, and automatically purges).
   - Formulated `.agent/` autonomous curation protocol (web search -> inspect webpage -> sample -> map -> output) and schema contracts.
-  - Conformed user's new node `wiki/concepts/nepalitagsetpos.md` to OKF v0.2 frontmatter specifications.
-- **Verification**: `python3 open_for_discussion/nepali_nlp_wiki/tools/wiki_cli.py lint` passed across all 42 files with 0 errors and 0 warnings.
+  ---
 
+### [2026-11-04] Migration & Deduplication of Personal Vault (`personal_mynlpvalult`)
+- **Author**: Antigravity AI Agent
+- **Source**: `/Users/paramanada/Desktop/ilprl_internship/personal_mynlpvalult`
+- **Actions & Architecture**:
+  1. **Primary Layer Migration (`raw/personal_vault/`)**:
+     - Preserved immutable primary records in `raw/personal_vault/`: `Knowledge/` notes, `nlpnotes/testing/` catalogs, presentation notes (`Presentation.md`), and PowerPoint slide presentation (`Copy of प्राकृतिक भाषा प्रशोधन.pptx`).
+  2. **Schema & Linter Hardening**:
+     - Fixed missing YAML frontmatters on 5 existing nodes (`hf_models_catalog.md`, `huggingface_repos.md`, `roboflow.md`, `roboflow_key_point.md`, `roboflow_semantic_segmentation.md`).
+  3. **Knowledge Graph Synthesis (Zero Duplication)**:
+     - **Created Concept Node**: `wiki/concepts/classical_nlp_methods.md` consolidating the user's personal notes on Hidden Markov Models (HMM), Naive Bayes, SVM, N-gram text prediction, TF-IDF, and morphological parsing.
+     - **Created Dataset Node**: `wiki/datasets/open_nepal_data_portals.md` cataloging national statistical repositories (NSO/CBS, NRB, MoF, DesInventar, NEOC, Open Data Nepal) from `Nepali numerical data Sources.md`.
+     - **Enriched Libraries Node**: `wiki/concepts/nepali_nlp_libraries.md` updated with `py-nepali` (Bikram Sambat and number words), `inltk` (AWD-LSTM/ULMFiT), `nepali_utils` (Dart/Flutter ecosystem), and `Nepalireader`.
+     - **Enriched Datasets**: `wiki/datasets/classification_datasets.md` enriched with `16NepaliNews Corpus` and Pema Gurung (`pemagrg1/Nepali-Datasets`).
+     - **Enriched Research Papers**:
+       - `wiki/papers/classification_papers.md`: Added Maskey et al. (LREC/SIGUL 2022) Nepali Encoder Transformers, NLPineers (2025) Hate Speech Ensembling.
+       - `wiki/papers/speech_papers.md`: Added Silent Speech Recognition in Nepali (IOEGC 2022).
+       - `wiki/papers/ocr_papers.md`: Added Acharya, Pant, Gyawali (IEEE SKIMA 2015) on Devanagari Handwritten Character Recognition (DHCD).
+       - `wiki/papers/translation_papers.md`: Added Duwal & Bal (UNESCO LT4All 2019) on Augmented English–Nepali Parallel Corpus.
+       - `wiki/papers/sentiment_papers.md`: Added Niraula et al. (ACL WOAH 2021) on Offensive Language Detection in Nepali Social Media.
+- **Verification**: `python3 tools/wiki_cli.py lint` executed across 49 files with **0 errors and 0 warnings**.
 
+---
 
-
-
+### [2026-11-05] Ingestion & Deduplication of ArXiv Research Dump (`raw/arxivsearch.md`)
+- **Author**: Antigravity AI Agent
+- **Source**: `/Users/paramanada/Desktop/ilprl_internship/open_for_discussion/nepali_nlp_wiki/raw/arxivsearch.md`
+- **Actions & Architecture**:
+  1. **Corpus Audit & Duplicate Filtering**:
+     - Audited all 122 entries from `raw/arxivsearch.md`.
+     - Cross-referenced titles, arXiv IDs, and DOIs against the existing wiki graph:
+       - **64 papers** were identified as already cataloged in the wiki and skipped to prevent duplicate records.
+       - **13 papers** were identified as non-computational false positives (nuclear/high-energy physics by author C. Nepali, quantitative biology, microfinance economics, board game RL) and filtered out.
+       - **45 papers** were confirmed as genuine, previously uncataloged computational linguistics, speech, translation, OCR, and language modeling research and synthesized into the wiki.
+  2. **Knowledge Graph Synthesis**:
+     - **Speech Papers** (`wiki/papers/speech_papers.md`): Ingested 9 papers including `NepTTS-Bench` (2611.03718), `Synthetic-to-Real Code-Switched ASR` (2610.30860), `Nepali ASR Benchmark` (2608.12327), `Speaker Diarization` (2606.26144), `Multi-Speaker Voice Cloning` (2601.18694), and sensor glove / NSL recognition.
+     - **OCR & Vision Papers** (`wiki/papers/ocr_papers.md`): Ingested 6 papers including `Nepali Number Plate Recognition` (2606.28946), `HTR Pipeline for Old Nepali Manuscripts` (2512.17111), `Mero Nagarikta Data Extractor` (2410.05721), and `Optimizing Nepali PDF Extraction` (2407.04577).
+     - **Machine Translation Papers** (`wiki/papers/translation_papers.md`): Ingested 14 papers covering cipher-based terminology learning (2610.24593), source curation for low-resource MT (2601.08629), phonetic-orthographic projections, and cognate detection.
+     - **Language Modeling & LLM Evaluation Papers** (`wiki/papers/language_modeling_papers.md`): Ingested 11 papers covering `Arkios` (2608.30092), cultural pragmatic adaptation (2604.17718), `TharuChat` bootstrapping (2603.17220), `Script Gap` Romanized vs Devanagari triage (2512.10780), and health query evaluation.
+     - **Sentiment & Classification Papers**: Enriched `sentiment_papers.md` with cross-language-script transfer (2402.04542) and `classification_papers.md` with environmental conservation media monitoring (2402.11818) and music genre classification.
+     - **Morphology Papers** (`wiki/papers/morphology_pos_papers.md`): Added contextual spelling correction with language models (2404.18072) and transfer learning with morphological clues.
+     - **Dataset Nodes Enriched**: Added `NepTTS-Bench` and podcast code-switched benchmarks to `wiki/datasets/speech_datasets.md`; added `NSL 36-Class Benchmark` and `Sensor Glove Telemetry` to `wiki/datasets/multimodal_sign_and_vision_datasets.md`.
+     - **Created Model Node**: Created `wiki/models/arkios.md` documenting the 1.04B-parameter bilingual English-Nepali foundation language model.
+- **Verification**: `python3 tools/wiki_cli.py lint` executed across 50 files with **0 errors and 0 warnings**.
 
 

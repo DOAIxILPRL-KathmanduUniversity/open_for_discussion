@@ -1,3 +1,20 @@
+---
+type: concept
+title: "Taxonomy of Roboflow Semantic Segmentation Datasets"
+description: "Taxonomic analysis of 300 pixel-level semantic segmentation projects from Roboflow Universe across urban, aerial, and medical domains."
+status: active
+version: "1.0.0"
+timestamp: "2026-11-04T12:00:00Z"
+tags:
+  - computer-vision
+  - semantic-segmentation
+  - pixel-masks
+  - roboflow
+provenance:
+  source: "Roboflow Universe"
+  verified_by: "Antigravity AI Curator"
+---
+
 # Taxonomy of Roboflow Semantic Segmentation Datasets
 
 **Overview**: Analysis of **300 semantic segmentation projects** harvested from Roboflow Universe (`downloads>0 semantic segmentation`).

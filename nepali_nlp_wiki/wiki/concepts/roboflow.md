@@ -1,3 +1,20 @@
+---
+type: concept
+title: "Taxonomy of Roboflow Classification Datasets"
+description: "Cross-domain taxonomy and analysis of 300 image classification projects harvested from Roboflow Universe."
+status: active
+version: "1.0.0"
+timestamp: "2026-11-04T12:00:00Z"
+tags:
+  - computer-vision
+  - classification
+  - roboflow
+  - dataset-taxonomy
+provenance:
+  source: "Roboflow Universe"
+  verified_by: "Antigravity AI Curator"
+---
+
 # Taxonomy of Roboflow Classification Datasets
 
 **Overview**: Analysis of **300 classification projects** harvested from Roboflow Universe (`classification downloads>10`).

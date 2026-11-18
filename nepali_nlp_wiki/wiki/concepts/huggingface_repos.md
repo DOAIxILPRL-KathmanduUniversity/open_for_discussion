@@ -1,3 +1,20 @@
+---
+type: concept
+title: "Taxonomy of Hugging Face Gradio Ecosystem Repositories"
+description: "Analysis and taxonomic classification of 76 repositories from the Hugging Face Gradio-app ecosystem."
+status: active
+version: "1.0.0"
+timestamp: "2026-11-04T12:00:00Z"
+tags:
+  - gradio
+  - huggingface
+  - ui-frameworks
+  - machine-learning-interfaces
+provenance:
+  source: "Hugging Face Gradio Organization"
+  verified_by: "Antigravity AI Curator"
+---
+
 # Taxonomy of Hugging Face Gradio Ecosystem Repositories
 
 **Overview**: Analysis of **76 repositories** from the Hugging Face Gradio-app organization.

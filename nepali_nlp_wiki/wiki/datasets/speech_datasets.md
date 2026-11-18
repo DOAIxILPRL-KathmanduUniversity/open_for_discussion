@@ -43,6 +43,9 @@ Speech technology in Nepali requires clean, transcribed acoustic corpora with ph
 | **Rural Women Bhojpuri ASR Dataset** | ASR | Targeted regional Terai speech dataset collecting authentic maternal and agricultural dialects for inclusive ASR. | [AI4Bharat / Hugging Face](https://huggingface.co/datasets/ai4bharat/Rural_Women_Bhojpuri) |
 | **Nepali Parliamentary Speech Dataset** | ASR | Transcribed legislative audio recordings from parliamentary debates featuring diverse oratorical speeds and formal registers. | [Kaggle](https://www.kaggle.com/datasets/ishworsubedii/nepali-speech-to-text-dataset) |
 | **sanoTTS & tamracar Speech Repositories** | TTS | Open-source end-to-end Tacotron and ESPnet pipelines trained on Nepali phonetics. | [GitHub: Ampixa](https://github.com/Ampixa/sanoTTS) / [GitHub: tamracar](https://github.com/tamracar/nepali-tts) |
+| **NepTTS-Bench (Native-Speaker TTS Benchmark)** | TTS Benchmark | 500+ speech utterances with subjective NepaliMOS ratings evaluating Tacotron2, VITS, FastSpeech2, and Bark. | [Hugging Face: ampixa/neptts-bench](https://huggingface.co/datasets/ampixa/neptts-bench) / [GitHub](https://github.com/Ampixa/neptts-bench) |
+| **Nepali-English Code-Switched Podcast Benchmark** | ASR | 9+ hours of spontaneous conversational audio with dense Devanagari/Latin code-switching points. | [Hugging Face: SamaFiroz/nepali-english-codeswitch-podcasts](https://huggingface.co/datasets/SamaFiroz/nepali-english-codeswitch-podcasts) |
+| **Nepali ASR Multi-Model Evaluation Suite** | ASR | Controlled benchmark splits comparing XLSR-53, IndicWav2Vec, and MMS under a single fine-tuning protocol. | [GitHub: p-sumann/nepali-asr-benchmark](https://github.com/p-sumann/nepali-asr-benchmark) |
 
 ## Interconnected Graph Nodes
 - **Papers**: [Speech Processing Papers](wiki/papers/speech_papers.md)

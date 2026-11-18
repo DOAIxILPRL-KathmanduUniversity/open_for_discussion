@@ -1,3 +1,20 @@
+---
+type: concept
+title: "Taxonomy of Roboflow Keypoint Detection & Pose Estimation Datasets"
+description: "Taxonomic analysis and landmark schema guide across 72 keypoint detection and pose estimation datasets from Roboflow Universe."
+status: active
+version: "1.0.0"
+timestamp: "2026-11-04T12:00:00Z"
+tags:
+  - computer-vision
+  - keypoint-detection
+  - pose-estimation
+  - roboflow
+provenance:
+  source: "Roboflow Universe"
+  verified_by: "Antigravity AI Curator"
+---
+
 # Taxonomy of Roboflow Keypoint Detection & Pose Estimation Datasets
 
 **Overview**: Comprehensive analysis of **72 keypoint detection projects** harvested from Roboflow Universe (`downloads>10 keypoint detection`).

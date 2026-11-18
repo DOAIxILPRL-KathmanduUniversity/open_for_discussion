@@ -31,6 +31,9 @@ Beyond purely textual corpora, multimodal NLP in Nepal encompasses video-to-sign
 | :--- | :--- | :--- | :--- |
 | **Nepali Sign Language Consonant & Vowel Video Dataset (NSL23)** | Zenodo: [`10.5281/zenodo.10478554`](https://zenodo.org/records/10478554) | 630 `.mov` videos (1,205 gestures) | Research-grade video benchmark covering 36 consonants and 13 vowels in Nepali Sign Language performed by 14 signers under diverse lighting and environmental conditions. |
 | **Nepali Sign Language Character Dataset** | Kaggle: [`biratpoudelrocks/nepali-sign-language-character-dataset`](https://www.kaggle.com/datasets/biratpoudelrocks/nepali-sign-language-character-dataset) | Thousands of images | Static frame character dataset captured across plain and cluttered backgrounds for training MobileNetV2 and ResNet classification baselines. |
+| **NSL 36-Class Large Benchmark Dataset** | Peer-reviewed: [`10.3126/kjse.v10i1.93865`](https://doi.org/10.3126/kjse.v10i1.93865) | 54,000 images (36 classes × 1,500) | Standardized NSL static gesture benchmark capturing variations in lighting, background, and signer hand morphology. |
+| **Hall-Effect NSL Sensor Glove Telemetry Dataset** | KJSE: [`10.3126/kjse.v10i1.93857`](https://doi.org/10.3126/kjse.v10i1.93857) | Multi-channel magnetic flux telemetry | Hardware sensor glove recording magnetic field intensities of finger flexions for robust physical sign translation. |
+| **Nepali Spoken-to-Emotion Sign Avatar Corpus** | arXiv: [`2606.26107`](https://arxiv.org/abs/2606.26107) | Multimodal speech-avatar sequences | Emotion-conditioned gesture coordinates paired with low-resource spoken Nepali audio. |
 
 ---
 

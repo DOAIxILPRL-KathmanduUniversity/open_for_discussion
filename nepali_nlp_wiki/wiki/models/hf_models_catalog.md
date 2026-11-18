@@ -1,3 +1,21 @@
+---
+type: model
+title: "Nepali NLP & Speech Models Catalog on HuggingFace"
+description: "Comprehensive categorized catalog of 650+ HuggingFace models for Nepali Natural Language Processing and Speech Processing."
+status: active
+version: "1.0.0"
+timestamp: "2026-11-04T12:00:00Z"
+tags:
+  - huggingface
+  - model-catalog
+  - transformers
+  - nepali-nlp
+  - speech-models
+provenance:
+  source: "Hugging Face Model Hub"
+  verified_by: "Antigravity AI Curator"
+---
+
 # Nepali NLP & Speech Models Catalog on HuggingFace
 
 A comprehensive, fully categorized catalog of HuggingFace models for Nepali Natural Language Processing (NLP), Speech Processing, and Computational Linguistics.

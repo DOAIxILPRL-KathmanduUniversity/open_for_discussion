@@ -31,6 +31,13 @@ Optical Character Recognition for Nepali involves parsing the continuous horizon
 
 | Paper Title | Authors | Venue / Date | DOI / Link |
 | :--- | :--- | :--- | :--- |
+| **Character Recognition of Nepali Number Plate** | Satyasa Khadka, Sandhya Baral, Sudip Tiwari, Sharad Kumar Ghimire | ISBM 2025 / arXiv (2026) | [arXiv:2606.28946](https://arxiv.org/abs/2606.28946) |
+| **Digitizing Nepal's Written Heritage: A Comprehensive HTR Pipeline for Old Nepali Manuscripts** | Anjali Sarawgi, Esteban Garces Arias, Christof Zotter | ACL 2026 / arXiv (2026) | [arXiv:2512.17111](https://arxiv.org/abs/2512.17111) |
+| **Mero Nagarikta: Advanced Nepali Citizenship Data Extractor with Deep Learning-Powered Text Detection and OCR** | Sisir Dhakal, Sujan Sigdel, Sandesh Prasad Paudel, Sharad Kumar Ghimire | arXiv (2024) | [arXiv:2410.05721](https://arxiv.org/abs/2410.05721) |
+| **Optimizing Nepali PDF Extraction: A Comparative Study of Parser and OCR Technologies** | Prabin Paudel, Supriya Khadka, Ranju G. C., Rahul Shah, Bal Krishna Bal | arXiv (2024) | [arXiv:2407.04577](https://arxiv.org/abs/2407.04577) |
+| **HCR-Net: A deep learning based script independent handwritten character recognition network** | Vinod Kumar Chauhan, Sukhdeep Singh, Anuj Sharma | Multimedia Tools and Applications (2024) | [10.1007/s11042-024-18655-5](https://doi.org/10.1007/s11042-024-18655-5) |
+| **Devnagari document segmentation using histogram approach** | Vikas J Dongre, Vijay H Mankar | IJCSEIT (2011) | [10.5121/ijcseit.2011.1305](https://doi.org/10.5121/ijcseit.2011.1305) |
+| **Deep Learning Based Large Scale Handwritten Devanagari Character Recognition** | Shailesh Acharya, Ashok Kumar Pant, Prashnna Kumar Gyawali | IEEE SKIMA 2015 (pp. 1–6) | [10.1109/SKIMA.2015.7400041](https://doi.org/10.1109/SKIMA.2015.7400041) |
 | **An Intelligent Mobile Framework for OCR-Based Medicine Recognition and Voice-Assisted Medication Adherence** | Pandey, Nisha, Rana, Smriti, Lamsal, Trishna, Lamichhane, Na | Proceedings of International Conference on In (2026-10-03) | [10.65091/icicset.v3i1.76](https://journal.ncit.edu.np/index.php/icicset/article/view/76) |
 | **Design of a Hardware-Integrated OCR System for Devnagari Text in Nepalese Citizenships** | Subedi, Prashant, Bashyal, Sandesh, Basnet, Pragati, Giri, A | Pokhara Engineering College Journal (2026-04-29) | [10.3126/pecj.v3i1.93533](https://www.nepjol.info/index.php/pecj/article/view/93533) |
 | **Real-Time Spam Detection in Chat Systems Using Naive Bayes, CNN, and OCR Techniques** | Adhikari, Prasanna, Jaiswal, Anku, Shrestha, Aakash, Sunar,  | Journal of Advanced College of Engineering an (2025-09-18) | [10.3126/jacem.v11i1.84523](https://www.nepjol.info/index.php/JACEM/article/view/84523) |

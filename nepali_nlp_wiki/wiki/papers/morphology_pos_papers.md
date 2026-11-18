@@ -33,6 +33,8 @@ Morphological processing is the most critical prerequisite in the computational 
 
 | Paper Title | Authors | Venue / Date | DOI / Link |
 | :--- | :--- | :--- | :--- |
+| **Contextual Spelling Correction with Language Model for Low-resource Setting** | Nishant Luitel, Nirajan Bekoju, Anand Kumar Sah, Subarna Shakya | IEEE ICICT (2024) | [10.1109/ICICT60155.2024.10544712](https://doi.org/10.1109/ICICT60155.2024.10544712) |
+| **From English to Code-Switching: Transfer Learning with Strong Morphological Clues** | Gustavo Aguilar, Thamar Solorio | ACL / arXiv (2020) | [arXiv:1909.05158](https://arxiv.org/abs/1909.05158) |
 | **Automated Spell Checking in Nepali Texts Using LSTM and BiLSTM** | Bhatta, Jagdish, Shrestha, Kripa, Paudel, Nawaraj | Mid-West University Journal of Engineering &  (2025-12-01) | [10.3126/mujoei.v1i1.91100](https://www.nepjol.info/index.php/mujoei/article/view/91100) |
 | **Optimizing BERT for Nepali Text Classification: The Role of Stemming and Gradient Descent Optimizers** | Saud, Arjun Singh, Dhakal, Ajanta | Aadim Journal of Multidisciplinary Research (2025-07-25) | [10.3126/ajmr.v1i1.82292](https://www.nepjol.info/index.php/ajmr/article/view/82292) |
 | **Nepali Spelling Checker** | Prasain, Bhawana, Lamichhane, Nabin, Pandey, Nabina, Adhikar | Journal of Engineering and Sciences (2022-12-31) | [10.3126/jes2.v1i1.58461](https://www.nepjol.info/index.php/jes2/article/view/58461) |

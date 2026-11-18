@@ -50,6 +50,35 @@ This catalog documents open-source, publicly accessible Python libraries that in
 - **GitHub**: [`sushil79g/Nepali_nlp`](https://github.com/sushil79g/Nepali_nlp)
 - **Features**: High-level wrapper for Nepali word embeddings loading, news classification baselines, tokenization, and Unicode-to-Preeti conversion.
 
+### `py-nepali` (`nepali`)
+- **PyPI**: [`pip install nepali`](https://pypi.org/project/nepali/)
+- **GitHub**: [`opensource-nepal/py-nepali`](https://github.com/opensource-nepal/py-nepali)
+- **Features**: Essential Python toolkit for Nepali software engineering and data processing:
+  - Bikram Sambat (BS) datetime operations, calendar manipulation, and BS/AD bidirectional conversion.
+  - Number to Devanagari words converter (e.g. `१२३४` $\rightarrow$ `एक हजार दुई सय चौंतीस`).
+  - Text normalization, character categorization, and human-readable formatting.
+
+### `inltk` (Indic Natural Language Toolkit)
+- **PyPI**: [`pip install inltk`](https://pepy.tech/project/inltk)
+- **Documentation**: [iNLTK Documentation](https://inltk.readthedocs.io/)
+- **Paper**: [Arora (EMNLP 2020)](https://www.aclweb.org/anthology/2020.nlposs-1.10/)
+- **Features**: Out-of-the-box support for Nepali (`ne`):
+  - ULMFiT / AWD-LSTM pre-trained language models for Nepali.
+  - Tokenization, next-word prediction, sentence embeddings, and text generation.
+  - Data augmentation (word masking, synonym substitution) and sentence similarity.
+
+### `nepali_utils` (Dart / Flutter Ecosystem)
+- **Pub.dev**: [`pub add nepali_utils`](https://pub.dev/packages/nepali_utils)
+- **GitHub**: [`sbis04/nepali_utils`](https://github.com/sbis04/nepali_utils)
+- **Features**: Cross-platform Dart library for mobile and web clients operating on Nepali text:
+  - Bikram Sambat calendar utilities, date formatting, and live clock sync.
+  - Number words generation, currency formatting (`रू`), and Devanagari numeral conversions.
+  - Unicode character filters and string sanitizer.
+
+### `Nepalireader`
+- **GitHub**: [`opensource-nepal/Nepalireader`](https://github.com/opensource-nepal)
+- **Features**: Assistive text-to-speech reader for visually impaired users, converting Nepali text into phonetic audio streams.
+
 ---
 
 ## 3. Font Converters & Unicode Normalizers
@@ -80,7 +109,7 @@ This catalog documents open-source, publicly accessible Python libraries that in
 ---
 
 ## Connected Graph Nodes
-- **Concepts**: [Devanagari NLP Foundations](wiki/concepts/devanagari_nlp.md)
+- **Concepts**: [Devanagari NLP Foundations](wiki/concepts/devanagari_nlp.md), [[classical_nlp_methods]]
 - **Datasets**: [Nepali Speech Datasets](wiki/datasets/speech_datasets.md), [Morphology Datasets](wiki/datasets/morphology_pos_datasets.md)
 - **Papers**: [Speech Processing Papers](wiki/papers/speech_papers.md), [OCR Papers](wiki/papers/ocr_papers.md)
 

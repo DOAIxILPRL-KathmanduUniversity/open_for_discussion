@@ -33,6 +33,10 @@ Text classification represents the most widely studied supervised NLP benchmark 
 | Paper Title | Authors | Venue / Date | DOI / Link |
 | :--- | :--- | :--- | :--- |
 | **Offensive Language Detection in Nepali Social Media** | Nobal B. Niraula, Saurab Dulal, Diwa Koirala | ACL Workshop on Online Abuse and Harms (WOAH 2021) | [ACL Anthology: 2021.woah-1.7](https://aclanthology.org/2021.woah-1.7/) |
+| **Where It Really Matters: Few-Shot Environmental Conservation Media Monitoring for Low-Resource Languages** | Sameer Jain, Sedrick Scott Keh, Shova Chettri, Karun Dewan, et al. | EMNLP / arXiv (2024) | [arXiv:2402.11818](https://arxiv.org/abs/2402.11818) |
+| **Music Genre Classification: A Comparative Analysis of Classical Machine Learning and Deep Learning Approaches** | Sachin Prajuli, Abhishek Karna, OmPrakash Dhakl | arXiv (2026) | [arXiv:2603.15440](https://arxiv.org/abs/2603.15440) |
+| **Nepali Encoder Transformers: An Analysis of Auto Encoding Transformer Language Models for Nepali Text Classification** | Utsav Maskey, Manish Bhatta, Shiva Raj Bhatta, Sanket Dhungel, Bal Krishna Bal | LREC / SIGUL 2022 (pp. 106–111) | [ACL Anthology / SIGUL 2022](https://aclanthology.org/2022.sigul-1.14/) |
+| **Hate Speech Detection in Devanagari Script Languages using Ensembling of BERT-based Models** | NLPineers (Team NLPineers) | FIRE / Devanagari NLU Evaluation Benchmark (2025) | [CEUR Workshop Proceedings / FIRE](https://ceur-ws.org/) |
 | **Sentence-Level Nepali Sign Language Recognition** | Dinesh Bhusal, et al. | IEEE ICICT 2024 | [10.1109/icict60155.2024.10544519](https://doi.org/10.1109/icict60155.2024.10544519) |
 | **Multi-Label Toxic Comment Detection Using BERT-Based NLP and Machine Learning** | Adhikari, Binita, Sapkota, Pratistha, Shakya, Rajad | International Journal on Engineering Technolo (2026-06-12) | [10.3126/injet-indev.v2i2.95699](https://www.nepjol.info/index.php/injetindev/article/view/95699) |
 | **Improving Nepali News Recommendation using LSTM RNN** | Basnet, Ashok, Timalsina, Arun K. | Journal of Science and Technology (NCIT) (2026-04-05) | [Link](https://journal.ncit.edu.np/index.php/jost/article/view/53) |
