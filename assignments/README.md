@@ -29,3 +29,6 @@ some random dataset for understanding NLP and finding suitable answer
 
 
 - visual genome is inspired from hindi visual genome and we only published the test and dev set for now - https://lindat.mff.cuni.cz/repository/items/2c94729a-82f4-460f-a6e7-c14988ddf58a 
+
+
+- nepali papers has 1000+ nepali to english translation with accents of english for some selected nepali research papers translated via opencode using beam model and mix of some. A test data for how a formal nepali shall be consdiered and how english translation can be style transfer in some way 
