@@ -32,3 +32,9 @@ some random dataset for understanding NLP and finding suitable answer
 
 
 - nepali papers has 1000+ nepali to english translation with accents of english for some selected nepali research papers translated via opencode using beam model and mix of some. A test data for how a formal nepali shall be consdiered and how english translation can be style transfer in some way 
+
+
+
+
+
+spellcheck has data which we cross referenced with some factual corpus with most likely correct spelling against nepali hunspell data starting from nepali dictionary and some unigram data . Used macos spellchecker against document for making it work . So can you check false positive spelling erros in nepali with spellchecker of your choice 
